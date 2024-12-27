@@ -1,0 +1,35 @@
+export enum GENDER_TYPE {
+    MALE = 'MALE',
+    FEMALE = 'FEMALE',
+    OTHER = 'OTHER',
+}
+
+export enum TASK_STATUS {
+  IN_PROGRESS = "IN_PROGRESS",
+  TODO = "TODO",
+  DONE = "DONE",
+}
+
+export const API_METHOD = {
+  POST: "POST",
+  GET: "GET",
+  PUT: "PUT",
+  DELETE: "DELETE",
+  PATCH: "PATCH",
+};
+
+export const HTTP_STATUS = {
+  OK: 200,
+  CREATED: 201,
+  NO_CONTENT: 204,
+
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+
+  INTERNAL_SERVER_ERROR: 500,
+  NOT_IMPLEMENTED: 501,
+  BAD_GATEWAY: 502,
+  SERVICE_UNAVAILABLE: 503,
+};
